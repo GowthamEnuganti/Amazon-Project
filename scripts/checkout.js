@@ -17,9 +17,7 @@ cart.forEach((cartItem) => {
   });
 
 
-cartSummaryHTML +=
-
-  `
+cartSummaryHTML += `
   <div class="cart-item-container
     js-cart-item-container-${matchingProduct.id}">
     <div class="delivery-date">
